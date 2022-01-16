@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acropolis Museum</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/museum.js"></script>
+    <script src="./js/piece.js"></script>   
+</head>
+<body>
+    <header><h1>Museo de la Acropolis</h1></header>
+    <section>
+        <img src ="./img/Ubicacion.JPG" alt="Ubicacion del museo" width=600px>
+        <p>Comienza a navegar por el museo !</p>
+    </section>
+    <section>
+        <h2>Acerca del museo</h2>
+        <img onmousemove="bigImg(this)" onmouseout="normalImg(this)" src="./img/Museo.jpg" alt="El museo" width="300px"height="300px">
+    </section>
+    <section>
+        <h2>Frontón del Olivo</h2>
+        <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget"><img src="./img/Olivo.jpg" alt="Fronton del Olivo">Drag img</p>
+        </div>
+        <p style="clear:both;" id="Olivo"></p>
+    </section>
+    <section>
+        <h2>El Moscoforo</h2>
+        <div id="myDIV" onwheel="scrl()"><img src="./img/moscoforo.jpg" alt="El moscoforo"></div>
+        <p style="clear:both;" id="Mosco"></p>
+    </section>
+    <section>
+        <h2>Coleccion de Kores</h2>
+        <h4>Press a key into the chart</h4>
+        <input type="text" id="fname" onkeyup="key()"><br>
+        <img src="./img/coleccionkores.jpg" alt="Coleccion de Kores">
+    </section>
+    <section>
+        <h2>Jinete Rampin</h2>
+        <button ondblclick="dblclick()"><img src="./img/jinete-rampin.jpg" alt="Jinete Rampin"></button>
+        <p style="clear:both;" id="rampin"></p>
+    </section>
+</body>
+<script src="./js/index.js"></script> 
+</html>

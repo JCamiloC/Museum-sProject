@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://1.bp.blogspot.com/-Iyc1a-VpRn4/UeXmUomFBMI/AAAAAAAAIIk/x_Zy2APcYi4/s1600/Fondo+HD+para+bajar+-+WiriWiri_info+-+(127).jpg");
+}
+h1{
+    font-size: 80px;
+    color: rgb(238, 178, 67);
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+img{margin: auto;
+    display: block;
+    border-left: 10px;
+    width: 400px;
+    height: 400px;
+}
+h2{
+    font-size: 50px;
+    color: rgb(238, 178, 67);
+    text-align: center;
+}
+.droptarget {
+    float: center; 
+    width: 500px; 
+    height: 450px;
+    padding: 5px;
+    border: 0.5px solid #aaaaaa;
+    margin: auto;
+    display: block;
+}
+h4{
+    font-size: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+input{
+    margin: auto;
+    display: block;
+    color: white;
+    background-color: rgb(238, 178, 67);
+}
+button{
+    background-color: rgb(238, 178, 67);;
+    margin: auto;
+    display: flex;
+    height: auto;
+    width: auto;
+}
